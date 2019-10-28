@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .button {
+            border: 0.5px solid red;
+            border-radius:50%;
+            padding:2%;
+            margin:10px;
+            width:70px;
+            font-size:23px;
+        }
+        .layout {
+            margin-left:118px;
+            margin-top:50px;
+        }
+        .divide {
+            background-color: pink;
+            border: 1px solid red;
+            border-radius:50px;
+            margin:10px;
+            padding:2%;
+            width:70px;
+            font-size:23px;
+        }
+        .multiply {
+            background-color: lawngreen;
+            border: 1px solid red;
+            border-radius:50px;
+            margin:10px;
+            padding:2%;
+            width:70px;
+            font-size:23px;
+        }
+        .numbers {
+            background-color:1px red;
+            border: 1px red;
+            border-radius:50px;
+            margin:10px;
+            padding:2%;
+            width:70px;
+            font-size:23px;
+        }
+        .minus {
+            background-color: red;
+            border: 1px solid red;
+            border-radius:50px;
+            margin:10px;
+            padding:2%;
+            width:70px;
+            font-size:23px;
+        }
+        .equals {
+            background-color: lightblue;
+            border: 1px solid red;
+            border-radius:50px;
+            margin:10px;
+            padding:2%;
+            width:70px;
+            font-size:23px;
+        }
+        .zero {
+            border: 1px red;
+            border-radius:50px;
+            padding:2%;
+            margin:10px;
+            width:70px;
+            font-size:23px;
+            margin-left: 105px;
+        }
+        .last {
+            border: 1px solid red;
+            background-color: hotpink;
+            border-radius:50px;
+            padding:2%;
+            margin:10px;
+            width:70px;
+            font-size:23px;
+            margin-left:102px;
+    
+
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <form>
+            <input type="button" class="button" onclick="clean(C)" value="C">
+            <input type="button" class="button" onclick="insert('<')" value="CE">
+            <input type="button" class="button" onclick="backSpace('%')" value="%">
+            <input type="button" class="divide" value="/"><br>
+
+            <input type="button" class="numbers" onclick="insert(7)" value="7">
+            <input type="button" class="numbers" onclick="insert(8)" value="8">
+            <input type="button" class="numbers" onclick="insert(9)" value="9">
+            <input type="button" class="multiply" value="*"><br>
+
+            <input type="button" class="numbers" onclick="insert(4)" value="4">
+            <input type="button" class="numbers" onclick="insert(5)" value="5">
+            <input type="button" class="numbers" onclick="insert(6)" value="6">
+            <input type="button" class="minus" onclick="insert('-')" value="-"><br>
+
+            <input type="button" class="numbers" onclick="insert(1)" value="1">
+            <input type="button" class="numbers" onclick="insert(2)" value="2">
+            <input type="button" class="numbers" onclick="insert(3)" value="3">
+            <input type="button" class="equals" onclick="equal('+')" value="+"><br>
+
+            <input type="button" class="zero" value="0">
+            <input type="button" class="last" value="=">
+            
+
+
+            
+        </form>
+
+    </div>
+
+</body>
+
+
+
+
+
+
+</html>
